@@ -21,7 +21,7 @@ export default function Home() {
             className="grid grid-cols-2 gap-10 md:grid-cols-4"
           >
             {[
-              { v: <CountUp to={2022} />, l: "Anno di nascita" },
+              { v: <CountUp to={2023} />, l: "Anno di nascita" },
               { v: <CountUp to={9.3} decimals={1} />, l: "Voto medio TheFork" },
               { v: <CountUp to={100} suffix="+" />, l: "Recensioni" },
               { v: <CountUp to={3} />, l: "Tipi di impasto" },
@@ -55,7 +55,7 @@ export default function Home() {
                 racconto.
               </h2>
               <p className="mt-8 text-lg leading-relaxed text-cream-dim">
-                Il Moro — Anima Sicula nasce nel 2022 ed è diventato in pochi
+                Il Moro — Anima Sicula nasce nel 2023 ed è diventato in pochi
                 anni un punto di riferimento per gli appassionati della pizza di
                 qualità, oltre che un simbolo di rinascita del cuore di
                 Sommatino. Oggi accoglie ospiti da tutta la Sicilia, in cerca di
@@ -445,23 +445,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* FINANZIAMENTO UE — loghi ufficiali */}
-      <section id="finanziamento" className="relative border-t border-line py-20">
+      {/* FINANZIAMENTO UE — loghi ufficiali (obbligo Regione Siciliana) */}
+      <section
+        id="finanziamento"
+        className="relative border-y-2 border-amber/40 bg-ink-soft py-24 md:py-28"
+      >
         <div className="mx-auto max-w-5xl px-5 text-center md:px-10">
           <Reveal>
-            <p className="text-xs uppercase tracking-[0.35em] text-amber">
-              Trasparenza
+            <p className="mx-auto inline-flex items-center gap-3 rounded-full border border-amber/50 bg-amber/10 px-5 py-2 text-xs uppercase tracking-[0.3em] text-amber">
+              Trasparenza · Fondi pubblici
             </p>
-            <h2 className="mt-4 font-display text-3xl leading-tight text-cream md:text-4xl">
-              Progetto cofinanziato dall&apos;Unione Europea
+            <h2 className="mx-auto mt-8 max-w-3xl font-display text-4xl leading-tight text-cream md:text-5xl">
+              Progetto cofinanziato dall&apos;Unione Europea e dalla{" "}
+              <span className="text-gold">Regione Siciliana</span>
             </h2>
-            <div className="mx-auto mt-10 max-w-3xl rounded-sm border border-line bg-white p-6 md:p-10">
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-cream-dim">
+              Il Moro s.r.l.s. ha realizzato un progetto cofinanziato nell&apos;ambito
+              dell&apos;Avviso «FAInSicilia» — PSC Sicilia e POC Sicilia 14-20.
+            </p>
+            <div className="mx-auto mt-12 max-w-4xl rounded-sm border border-line bg-white p-8 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.6)] md:p-14">
               <Image
                 src="/img/loghi-ue.png"
                 alt="Loghi istituzionali: Unione Europea, Repubblica Italiana, Regione Siciliana, PSC Sicilia, POC Sicilia 14-20"
                 width={972}
                 height={136}
-                sizes="(max-width: 768px) 100vw, 800px"
+                sizes="(max-width: 768px) 100vw, 900px"
                 className="mx-auto h-auto w-full"
               />
             </div>

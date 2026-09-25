@@ -67,7 +67,7 @@ export default function Hero() {
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-10">
         <p className="hero-kicker mb-6 text-xs uppercase tracking-[0.4em] text-amber">
-          Sommatino · Sicilia · dal 2022
+          Sommatino · Sicilia · dal 2023
         </p>
         <h1 className="font-display text-[15vw] leading-[0.9] text-cream md:text-[9rem]">
           <span className="block overflow-hidden">

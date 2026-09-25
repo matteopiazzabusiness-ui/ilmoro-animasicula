@@ -6,7 +6,7 @@ const ITEMS = [
   "Sommatino",
   "Lunga maturazione",
   "Ingredienti del territorio",
-  "Dal 2022",
+  "Dal 2023",
 ];
 
 export default function Marquee() {
