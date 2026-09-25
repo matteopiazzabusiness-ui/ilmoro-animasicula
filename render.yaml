@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ilmoro-animasicula
+    runtime: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm run start -- -p $PORT
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"

@@ -1,0 +1,50 @@
+import type { Metadata } from "next";
+import { Cormorant_Garamond, Inter } from "next/font/google";
+import "./globals.css";
+import SmoothScroll from "@/components/SmoothScroll";
+
+const cormorant = Cormorant_Garamond({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-cormorant",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://ilmoro-animasicula.it"),
+  title: "Il Moro — Anima Sicula | Pizzeria a Sommatino",
+  description:
+    "Il Moro Anima Sicula: la pizza d'autore di Filippo Volpe nel cuore di Sommatino (CL). Impasti a lunga maturazione, ingredienti siciliani, un'esperienza di gusto.",
+  keywords: [
+    "pizzeria Sommatino",
+    "Il Moro Anima Sicula",
+    "Filippo Volpe",
+    "pizza contemporanea Sicilia",
+    "Caltanissetta pizzeria",
+  ],
+  openGraph: {
+    title: "Il Moro — Anima Sicula",
+    description:
+      "La pizza d'autore di Filippo Volpe nel cuore di Sommatino. Impasti a lunga maturazione, anima siciliana.",
+    type: "website",
+    locale: "it_IT",
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="it" className={`${cormorant.variable} ${inter.variable}`}>
+      <body className="grain">
+        <SmoothScroll>{children}</SmoothScroll>
+      </body>
+    </html>
+  );
+}
