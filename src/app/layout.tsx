@@ -15,7 +15,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ilmoro-animasicula.it"),
+  metadataBase: new URL("https://www.ilmoroanimasicula.it"),
+  alternates: { canonical: "https://www.ilmoroanimasicula.it" },
   title: "Il Moro — Anima Sicula | Pizzeria a Sommatino",
   description:
     "Il Moro Anima Sicula: la pizza d'autore di Filippo Volpe nel cuore di Sommatino (CL). Impasti a lunga maturazione, ingredienti siciliani, un'esperienza di gusto.",
