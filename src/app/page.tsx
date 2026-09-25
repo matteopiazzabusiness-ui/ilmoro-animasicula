@@ -481,34 +481,45 @@ export default function Home() {
       <footer className="border-t border-line bg-ink-soft py-16">
         <div className="mx-auto max-w-7xl px-5 md:px-10">
           <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
-            <div>
-              <p className="font-display text-3xl text-cream">
-                Il Moro <span className="font-accent text-amber">Anima Sicula</span>
-              </p>
-              <p className="mt-3 max-w-sm text-sm text-cream-dim">
-                Pizzeria e ristorante nel centro storico di Sommatino.
-                Corso Umberto I, 36/38 · 93019 Sommatino (CL)
-              </p>
-              <div className="mt-4 flex gap-5 text-sm text-cream-dim">
-                <a
-                  href="https://www.instagram.com/ilmoro_animasicula/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-amber"
-                >
-                  Instagram
-                </a>
-                <a
-                  href="https://www.facebook.com/p/Il-Moro-Anima-Sicula-100095303911923/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-amber"
-                >
-                  Facebook
-                </a>
-                <a href="tel:+3909221896296" className="hover:text-amber">
-                  0922 1896296
-                </a>
+            <div className="flex items-end gap-6">
+              <div className="w-[86px] shrink-0 bg-[#cdbfa6] p-2 md:w-[104px]">
+                <Image
+                  src="/img/ilmoro-logo-hd.png"
+                  alt="Logo Il Moro Anima Sicula"
+                  width={556}
+                  height={830}
+                  className="h-auto w-full"
+                />
+              </div>
+              <div>
+                <p className="font-display text-3xl text-cream">
+                  Il Moro <span className="font-accent text-amber">Anima Sicula</span>
+                </p>
+                <p className="mt-3 max-w-sm text-sm text-cream-dim">
+                  Pizzeria e ristorante nel centro storico di Sommatino.
+                  Corso Umberto I, 36/38 · 93019 Sommatino (CL)
+                </p>
+                <div className="mt-4 flex gap-5 text-sm text-cream-dim">
+                  <a
+                    href="https://www.instagram.com/ilmoro_animasicula/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-amber"
+                  >
+                    Instagram
+                  </a>
+                  <a
+                    href="https://www.facebook.com/p/Il-Moro-Anima-Sicula-100095303911923/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-amber"
+                  >
+                    Facebook
+                  </a>
+                  <a href="tel:+3909221896296" className="hover:text-amber">
+                    0922 1896296
+                  </a>
+                </div>
               </div>
             </div>
             <div className="text-sm text-cream-dim">

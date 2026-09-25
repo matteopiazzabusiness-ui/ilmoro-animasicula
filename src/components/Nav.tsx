@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const links = [
   { href: "#anima", label: "Anima" },
@@ -31,13 +32,19 @@ export default function Nav() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-10">
-        <a href="#top" className="flex items-baseline gap-2" aria-label="Il Moro Anima Sicula, torna all'inizio">
-          <span className="font-display text-2xl uppercase tracking-[-0.06em] text-cream">
-            Il Moro
-          </span>
-          <span className="text-[0.6rem] uppercase tracking-[0.35em] text-amber">
-            Anima Sicula
-          </span>
+        <a
+          href="#top"
+          className="flex h-[68px] w-[54px] items-center justify-center bg-[#cdbfa6] p-1 transition-transform duration-200 hover:scale-[1.03]"
+          aria-label="Il Moro Anima Sicula, torna all'inizio"
+        >
+          <Image
+            src="/img/ilmoro-logo-hd.png"
+            alt="Logo Il Moro Anima Sicula"
+            width={556}
+            height={830}
+            priority
+            className="h-full w-full object-contain"
+          />
         </a>
 
         <ul className="hidden items-center gap-8 md:flex">
