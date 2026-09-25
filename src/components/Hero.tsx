@@ -66,37 +66,54 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-ink/80 to-transparent" />
 
       <div className="relative z-10 mx-auto w-full max-w-7xl px-5 md:px-10">
-        <p className="hero-kicker mb-6 text-xs uppercase tracking-[0.4em] text-amber">
-          Sommatino · Sicilia · dal 2023
-        </p>
-        <h1 className="font-display text-[15vw] leading-[0.9] text-cream md:text-[9rem]">
-          <span className="block overflow-hidden">
-            <span className="hero-line block">Il Moro</span>
-          </span>
-          <span className="block overflow-hidden">
-            <span className="hero-line block italic text-amber">
-              Anima Sicula
-            </span>
-          </span>
-        </h1>
-        <p className="hero-sub mt-8 max-w-xl text-lg text-cream-dim md:text-xl">
-          La pizza d&apos;autore di Filippo Volpe. Impasti a lunga maturazione,
-          fermentazioni spontanee e il gusto autentico della Sicilia, nel cuore
-          di Sommatino.
-        </p>
-        <div className="mt-10 flex flex-wrap gap-4">
-          <a
-            href="#contatti"
-            className="hero-cta rounded-full bg-terra px-8 py-4 text-sm uppercase tracking-[0.18em] text-cream transition-transform hover:scale-105"
-          >
-            Prenota un tavolo
-          </a>
-          <a
-            href="#menu"
-            className="hero-cta rounded-full border border-line px-8 py-4 text-sm uppercase tracking-[0.18em] text-cream transition-colors hover:border-amber hover:text-amber"
-          >
-            Scopri il menù
-          </a>
+        <div className="grid items-end gap-12 lg:grid-cols-[minmax(0,1fr)_19rem]">
+          <div>
+            <p className="hero-kicker mb-6 text-xs font-bold uppercase tracking-[0.32em] text-amber">
+              Sommatino · Sicilia · dal 2023
+            </p>
+            <h1 className="font-display text-[15vw] uppercase leading-[0.82] text-cream md:text-[8.75rem]">
+              <span className="block overflow-hidden">
+                <span className="hero-line block">Il Moro</span>
+              </span>
+              <span className="block overflow-hidden">
+                <span className="hero-line block text-amber">Anima Sicula</span>
+              </span>
+            </h1>
+            <p className="hero-sub mt-8 max-w-xl text-lg leading-relaxed text-cream-dim md:text-xl">
+              La pizza d&apos;autore di Filippo Volpe. Impasti a lunga maturazione,
+              fermentazioni spontanee e il gusto autentico della Sicilia, nel cuore
+              di Sommatino.
+            </p>
+            <div className="mt-10 flex flex-wrap gap-4">
+              <a
+                href="#contatti"
+                className="hero-cta rounded-full bg-terra px-8 py-4 text-sm font-bold uppercase tracking-[0.15em] text-cream transition-transform duration-200 hover:scale-105"
+              >
+                Prenota un tavolo
+              </a>
+              <a
+                href="#menu"
+                className="hero-cta rounded-full border border-line px-8 py-4 text-sm font-bold uppercase tracking-[0.15em] text-cream transition-colors duration-200 hover:border-amber hover:text-amber"
+              >
+                Scopri il menù
+              </a>
+            </div>
+          </div>
+
+          <aside className="hero-card hero-cta hidden border border-amber/40 p-6 text-cream lg:block">
+            <p className="text-[0.65rem] font-bold uppercase tracking-[0.28em] text-amber">
+              La firma del Moro
+            </p>
+            <p className="mt-5 font-display text-3xl uppercase leading-[0.9]">
+              Tre impasti.<br />Una sola anima.
+            </p>
+            <div className="mt-7 border-t border-line pt-4 text-sm leading-relaxed text-cream-dim">
+              Lunga maturazione, farine siciliane e ingredienti che seguono la stagione.
+            </div>
+            <a href="#impasto" className="mt-5 inline-flex text-xs font-bold uppercase tracking-[0.18em] text-amber hover:text-cream">
+              Scopri l&apos;impasto →
+            </a>
+          </aside>
         </div>
       </div>
 

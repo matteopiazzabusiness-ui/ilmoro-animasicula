@@ -155,7 +155,7 @@ export default function Home() {
             ].map((c) => (
               <div
                 key={c.t}
-                className="border border-line bg-ink-soft/50 p-8"
+                className="border border-line bg-ink-soft/50 p-8 transition-colors duration-200 hover:border-amber/60"
               >
                 <h3 className="font-display text-2xl text-amber">{c.t}</h3>
                 <p className="mt-4 leading-relaxed text-cream-dim">{c.d}</p>
@@ -232,7 +232,7 @@ export default function Home() {
             ].map((m) => (
               <div
                 key={m.n}
-                className="flex items-baseline justify-between gap-4 border-b border-line pb-4"
+                className="menu-row flex items-baseline justify-between gap-4 border-b border-line pb-4"
               >
                 <div>
                   <h3 className="font-display text-2xl text-cream">{m.n}</h3>
@@ -319,7 +319,7 @@ export default function Home() {
                 d: "Oltre 100 recensioni: qualità, servizio e atmosfera premiati dagli ospiti.",
               },
             ].map((r) => (
-              <div key={r.t} className="border border-line p-8">
+              <div key={r.t} className="border border-line p-8 transition-colors duration-200 hover:border-amber/60">
                 <h3 className="font-display text-2xl text-amber">{r.t}</h3>
                 <p className="mt-4 leading-relaxed text-cream-dim">{r.d}</p>
               </div>

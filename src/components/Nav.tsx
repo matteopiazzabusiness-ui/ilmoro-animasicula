@@ -31,8 +31,8 @@ export default function Nav() {
       }`}
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 md:px-10">
-        <a href="#top" className="flex items-baseline gap-2">
-          <span className="font-display text-2xl font-semibold tracking-wide text-cream">
+        <a href="#top" className="flex items-baseline gap-2" aria-label="Il Moro Anima Sicula, torna all'inizio">
+          <span className="font-display text-2xl uppercase tracking-[-0.06em] text-cream">
             Il Moro
           </span>
           <span className="text-[0.6rem] uppercase tracking-[0.35em] text-amber">
@@ -55,15 +55,16 @@ export default function Nav() {
 
         <a
           href="#contatti"
-          className="hidden rounded-full border border-amber px-5 py-2 text-xs uppercase tracking-[0.18em] text-amber transition-colors hover:bg-amber hover:text-ink md:inline-block"
+          className="hidden rounded-full border border-amber px-5 py-2 text-xs font-bold uppercase tracking-[0.15em] text-amber transition-colors duration-200 hover:bg-amber hover:text-ink md:inline-block"
         >
           Prenota
         </a>
 
         <button
-          aria-label="Menu"
+          aria-label="Apri il menu di navigazione"
+          aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
-          className="flex flex-col gap-[5px] md:hidden"
+          className="flex min-h-11 min-w-11 items-center justify-center gap-[5px] md:hidden"
         >
           <span className="h-[2px] w-6 bg-cream" />
           <span className="h-[2px] w-6 bg-cream" />
