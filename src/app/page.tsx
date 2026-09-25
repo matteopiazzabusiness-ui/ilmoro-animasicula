@@ -51,8 +51,8 @@ export default function Home() {
                 L&apos;anima
               </p>
               <h2 className="font-display text-4xl leading-tight text-cream md:text-6xl">
-                Nel centro storico di Sommatino, dove la pizza diventa
-                racconto.
+                Nel centro storico di Sommatino, dove la pizza diventa{" "}
+                <span className="font-accent text-amber">racconto.</span>
               </h2>
               <p className="mt-8 text-lg leading-relaxed text-cream-dim">
                 Il Moro — Anima Sicula nasce nel 2023 ed è diventato in pochi
@@ -128,7 +128,7 @@ export default function Home() {
               La filosofia
             </p>
             <h2 className="max-w-3xl font-display text-4xl leading-tight text-cream md:text-6xl">
-              Tutto comincia <span className="text-gold">dall&apos;impasto</span>.
+              Tutto comincia{" "}<span className="font-accent text-gold">dall&apos;impasto</span>.
             </h2>
             <p className="mt-8 max-w-2xl text-lg leading-relaxed text-cream-dim">
               Leggero, fragrante e altamente digeribile grazie a lunghi tempi di
@@ -185,7 +185,7 @@ export default function Home() {
               Il menù
             </p>
             <h2 className="font-display text-4xl leading-tight text-cream md:text-6xl">
-              Ingredienti siciliani, mano d&apos;autore.
+              Ingredienti siciliani, <span className="font-accent text-amber">mano d&apos;autore.</span>
             </h2>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-cream-dim">
               Pizze a base vegetale, materie prime a chilometro zero e prodotti
@@ -483,7 +483,7 @@ export default function Home() {
           <div className="flex flex-col justify-between gap-10 md:flex-row md:items-end">
             <div>
               <p className="font-display text-3xl text-cream">
-                Il Moro <span className="italic text-amber">Anima Sicula</span>
+                Il Moro <span className="font-accent text-amber">Anima Sicula</span>
               </p>
               <p className="mt-3 max-w-sm text-sm text-cream-dim">
                 Pizzeria e ristorante nel centro storico di Sommatino.

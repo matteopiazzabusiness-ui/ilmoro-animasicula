@@ -71,12 +71,14 @@ export default function Hero() {
             <p className="hero-kicker mb-6 text-xs font-bold uppercase tracking-[0.32em] text-amber">
               Sommatino · Sicilia · dal 2023
             </p>
-            <h1 className="font-display text-[15vw] uppercase leading-[0.82] text-cream md:text-[8.75rem]">
+            <h1 className="font-display text-[15vw] leading-[0.82] text-cream md:text-[8.75rem]">
               <span className="block overflow-hidden">
-                <span className="hero-line block">Il Moro</span>
+                <span className="hero-line block uppercase">Il Moro</span>
               </span>
               <span className="block overflow-hidden">
-                <span className="hero-line block text-amber">Anima Sicula</span>
+                <span className="hero-line font-accent block text-[0.9em] leading-[0.94] text-amber">
+                  Anima Sicula
+                </span>
               </span>
             </h1>
             <p className="hero-sub mt-8 max-w-xl text-lg leading-relaxed text-cream-dim md:text-xl">
@@ -105,7 +107,7 @@ export default function Hero() {
               La firma del Moro
             </p>
             <p className="mt-5 font-display text-3xl uppercase leading-[0.9]">
-              Tre impasti.<br />Una sola anima.
+              Tre impasti.<br /><span className="font-accent text-4xl normal-case text-amber">Una sola anima.</span>
             </p>
             <div className="mt-7 border-t border-line pt-4 text-sm leading-relaxed text-cream-dim">
               Lunga maturazione, farine siciliane e ingredienti che seguono la stagione.
