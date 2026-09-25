@@ -1,13 +1,9 @@
 import type { NextConfig } from "next";
 
-// Deploy statico su GitHub Pages (project site: /ilmoro-animasicula)
-const repo = "ilmoro-animasicula";
-
+// Deploy statico su GitHub Pages con dominio custom (root)
 const nextConfig: NextConfig = {
   output: "export",
   images: { unoptimized: true },
-  basePath: `/${repo}`,
-  assetPrefix: `/${repo}/`,
   trailingSlash: true,
 };
 
