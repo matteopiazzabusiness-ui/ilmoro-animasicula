@@ -473,6 +473,34 @@ export default function Home() {
                 className="mx-auto h-auto w-full"
               />
             </div>
+
+            {/* Dati operazione (obbligo trasparenza) — testo piccolo */}
+            <div className="mx-auto mt-8 max-w-3xl text-left text-xs leading-relaxed text-cream-dim/80">
+              <p><strong className="text-cream-dim">Beneficiario:</strong> Il Moro s.r.l.s.</p>
+              <p><strong className="text-cream-dim">Titolo dell&apos;Operazione:</strong> Il Moro s.r.l.s.</p>
+              <p><strong className="text-cream-dim">CUP:</strong> G38D24000000006</p>
+              <p><strong className="text-cream-dim">D.D.G.</strong> n. 23/3.S del 14/01/2025</p>
+              <p><strong className="text-cream-dim">Costo Totale dell&apos;Operazione:</strong> € 67.898,40</p>
+              <p><strong className="text-cream-dim">Sostegno Finanziario Ricevuto:</strong> € 33.202,32</p>
+              <p className="mt-3">
+                Il progetto consiste nell&apos;ampliamento e nella gestione di una
+                «Pizzeria e ristorante». L&apos;attività è locata in Sommatino (CL),
+                Corso Umberto I, 36/38. Il cuore del progetto imprenditoriale,
+                finanziato tramite l&apos;Avviso «FAInSicilia», si basa
+                sull&apos;acquisizione di attrezzature da cucina e un dehor esterno
+                per ospitare la clientela sia in estate che in inverno.
+              </p>
+              <p className="mt-4">
+                <a
+                  href="/doc/finanziamento-ue.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber underline underline-offset-2 hover:text-cream"
+                >
+                  Consulta il documento del finanziamento (PDF) →
+                </a>
+              </p>
+            </div>
           </Reveal>
         </div>
       </section>
