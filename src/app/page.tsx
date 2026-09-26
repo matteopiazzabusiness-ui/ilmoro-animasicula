@@ -490,14 +490,21 @@ export default function Home() {
                 sull&apos;acquisizione di attrezzature da cucina e un dehor esterno
                 per ospitare la clientela sia in estate che in inverno.
               </p>
-              <p className="mt-4">
+              <p className="mt-3">
+                Gli aiuti di Stato e gli aiuti de minimis ricevuti sono contenuti
+                nel Registro nazionale degli aiuti di Stato di cui all&apos;art. 52
+                della L. 234/2012 e consultabili al seguente link, inserendo come
+                chiave di ricerca nel campo CODICE FISCALE:{" "}
+                <strong className="text-cream-dim">02119020853</strong>
+              </p>
+              <p className="mt-3">
                 <a
-                  href="/doc/finanziamento-ue.pdf"
+                  href="https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/TrasparenzaAiuto.jspx"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-amber underline underline-offset-2 hover:text-cream"
+                  className="break-all text-amber underline underline-offset-2 hover:text-cream"
                 >
-                  Consulta il documento del finanziamento (PDF) →
+                  https://www.rna.gov.it/RegistroNazionaleTrasparenza/faces/pages/TrasparenzaAiuto.jspx
                 </a>
               </p>
             </div>
