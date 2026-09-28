@@ -499,12 +499,12 @@ export default function Home() {
               </p>
               <p className="mt-3">
                 <a
-                  href="https://www.rna.gov.it/trasparenza/aiuti"
+                  href="https://www.rna.gov.it/trasparenza"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="break-all text-amber underline underline-offset-2 hover:text-cream"
                 >
-                  https://www.rna.gov.it/trasparenza/aiuti
+                  https://www.rna.gov.it/trasparenza
                 </a>
               </p>
             </div>
