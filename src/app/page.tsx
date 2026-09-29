@@ -372,12 +372,9 @@ export default function Home() {
                   >
                     0922 1896296
                   </a>
-                  <a
-                    href="tel:+393748390194"
-                    className="mt-1 block text-lg text-cream-dim hover:text-amber"
-                  >
-                    374 839 0194
-                  </a>
+                  <p className="mt-2 max-w-[16rem] text-sm leading-relaxed text-cream-dim">
+                    Disponibile per chiamate e anche su WhatsApp.
+                  </p>
                 </div>
                 <div className="border-l border-line pl-5">
                   <p className="text-xs uppercase tracking-[0.25em] text-amber">
@@ -415,17 +412,24 @@ export default function Home() {
               <div className="mt-10 flex flex-wrap gap-4">
                 <a
                   href="tel:+3909221896296"
-                  className="inline-block rounded-full bg-terra px-8 py-4 text-sm uppercase tracking-[0.18em] text-cream transition-transform hover:scale-105"
+                  className="inline-flex min-h-12 items-center justify-center rounded-full bg-terra px-8 py-4 text-sm font-bold uppercase tracking-[0.15em] text-cream transition-transform hover:scale-105"
                 >
-                  Chiama per prenotare
+                  Chiama il fisso
                 </a>
                 <a
-                  href="https://wa.me/393748390194"
+                  href="https://wa.me/3909221896296"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block rounded-full border border-line px-8 py-4 text-sm uppercase tracking-[0.18em] text-cream transition-colors hover:border-amber hover:text-amber"
+                  className="inline-flex min-h-12 items-center justify-center gap-3 rounded-full border border-line px-8 py-4 text-sm font-bold uppercase tracking-[0.15em] text-cream transition-colors hover:border-amber hover:text-amber"
                 >
-                  Scrivici su WhatsApp
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 32 32"
+                    className="h-5 w-5 shrink-0 fill-current"
+                  >
+                    <path d="M16.03 3.2A12.77 12.77 0 0 0 5.1 22.59L3.2 28.8l6.37-1.67A12.8 12.8 0 1 0 16.03 3.2Zm0 23.48c-2 0-3.96-.54-5.67-1.56l-.4-.24-3.78.99 1.01-3.68-.26-.42a10.65 10.65 0 1 1 9.1 4.91Zm5.85-7.98c-.32-.16-1.88-.93-2.17-1.04-.29-.1-.5-.16-.71.16-.21.32-.82 1.04-1 1.25-.18.21-.36.24-.68.08-.32-.16-1.35-.5-2.57-1.6-.95-.84-1.6-1.89-1.78-2.2-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.55.16-.19.21-.32.32-.53.1-.22.05-.4-.03-.56-.08-.16-.71-1.72-.98-2.36-.25-.62-.51-.54-.71-.55h-.6c-.21 0-.55.08-.84.4-.29.32-1.1 1.08-1.1 2.63 0 1.56 1.13 3.06 1.29 3.27.16.22 2.22 3.4 5.38 4.77.75.32 1.34.52 1.8.66.76.24 1.45.2 2 .12.6-.09 1.88-.77 2.15-1.5.26-.73.26-1.37.18-1.5-.08-.13-.29-.21-.61-.37Z" />
+                  </svg>
+                  WhatsApp sul fisso
                 </a>
               </div>
             </Reveal>
